@@ -16,6 +16,7 @@
 		7474A90D1FD0EB92007A1483 /* YCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A90C1FD0EB92007A1483 /* YCNotificationCenter.m */; };
 		7474A9101FD0F409007A1483 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A90F1FD0F409007A1483 /* FirstViewController.m */; };
 		7474A9131FD0F41B007A1483 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A9121FD0F41B007A1483 /* SecondViewController.m */; };
+		7474A9191FD14181007A1483 /* YCNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A9181FD14181007A1483 /* YCNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		7474A90F1FD0F409007A1483 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7474A9111FD0F41B007A1483 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		7474A9121FD0F41B007A1483 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7474A9171FD14181007A1483 /* YCNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCNotification.h; sourceTree = "<group>"; };
+		7474A9181FD14181007A1483 /* YCNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				7474A90B1FD0EB92007A1483 /* YCNotificationCenter.h */,
 				7474A90C1FD0EB92007A1483 /* YCNotificationCenter.m */,
+				7474A9171FD14181007A1483 /* YCNotification.h */,
+				7474A9181FD14181007A1483 /* YCNotification.m */,
 			);
 			path = YCNotificationCenter;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7474A9191FD14181007A1483 /* YCNotification.m in Sources */,
 				7474A9131FD0F41B007A1483 /* SecondViewController.m in Sources */,
 				7474A90D1FD0EB92007A1483 /* YCNotificationCenter.m in Sources */,
 				7474A8F61FD0E626007A1483 /* main.m in Sources */,

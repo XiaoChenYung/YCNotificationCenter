@@ -10,6 +10,10 @@
 
 @interface YCNotificationCenter : NSObject
 
-+ (instancetype)defaultCenter;
++ (nonnull instancetype )defaultCenter;
+
+- (void)addObserver:(nonnull id )observer selector:(nonnull SEL )aSelector name:(nonnull NSNotificationName )aName object:(nullable id )anObject;
+
+- (void)postNotificationName:(nonnull NSNotificationName )aName object:(nullable id )anObject;
 
 @end

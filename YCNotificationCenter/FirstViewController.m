@@ -7,8 +7,10 @@
 //
 
 #import "FirstViewController.h"
+#import "YCNotificationCenter.h"
 
 @interface FirstViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *countLable;
 
 @end
 
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[YCNotificationCenter defaultCenter] addObserver:self selector:@selector(test:) name:@"test" object:@"1"];
     // Do any additional setup after loading the view.
+}
+- (IBAction)sendNotiificationButton:(UIButton *)sender {
+    [[YCNotificationCenter defaultCenter] postNotificationName:@"test" object:@"1"];
+}
+
+- (void)test:(NSNotification *)no {
+    NSInteger count = self.countLable.text.integerValue;
+    self.countLable.text = [NSString stringWithFormat:@"%zu", ++count];
 }
 
 - (void)didReceiveMemoryWarning {

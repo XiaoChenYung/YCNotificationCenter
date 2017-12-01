@@ -13,7 +13,7 @@
         <!--second-->
         <scene sceneID="s50-0o-qvy">
             <objects>
-                <viewController id="Rpq-Ne-hew" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController id="Rpq-Ne-hew" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E4k-IX-6K1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,12 +43,16 @@
                         <constraints>
                             <constraint firstItem="sAy-55-CPc" firstAttribute="top" secondItem="erg-Or-MEZ" secondAttribute="top" constant="77" id="3qM-Bj-C6z"/>
                             <constraint firstItem="sAy-55-CPc" firstAttribute="centerX" secondItem="E4k-IX-6K1" secondAttribute="centerX" id="E4j-ir-5oJ"/>
+                            <constraint firstItem="6pI-KK-DmI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="E4k-IX-6K1" secondAttribute="leading" constant="20" symbolic="YES" id="aoq-hy-67I"/>
                             <constraint firstItem="sAy-55-CPc" firstAttribute="leading" secondItem="6pI-KK-DmI" secondAttribute="trailing" id="n6u-Ip-1Uk"/>
                             <constraint firstItem="sAy-55-CPc" firstAttribute="centerY" secondItem="6pI-KK-DmI" secondAttribute="centerY" id="tau-EB-pFN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="erg-Or-MEZ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="second" id="vdD-dA-46w"/>
+                    <connections>
+                        <outlet property="countLable" destination="sAy-55-CPc" id="aJ3-98-aDz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="siG-28-GCl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,6 +97,9 @@
                                 <state key="normal" title="发送通知">
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendNotiificationButton:" destination="Tw4-mq-CR8" eventType="touchUpInside" id="CQM-pv-rLP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,6 +115,9 @@
                         <viewLayoutGuide key="safeArea" id="hM1-1y-Sik"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="first" id="83B-iE-MIw"/>
+                    <connections>
+                        <outlet property="countLable" destination="y3e-z9-DbJ" id="Aa4-S4-4KY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fop-nU-CSL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
