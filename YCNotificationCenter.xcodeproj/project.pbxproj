@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7474A8E81FD0E626007A1483 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A8E71FD0E626007A1483 /* AppDelegate.m */; };
-		7474A8EB1FD0E626007A1483 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A8EA1FD0E626007A1483 /* ViewController.m */; };
 		7474A8EE1FD0E626007A1483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7474A8EC1FD0E626007A1483 /* Main.storyboard */; };
 		7474A8F01FD0E626007A1483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7474A8EF1FD0E626007A1483 /* Assets.xcassets */; };
 		7474A8F31FD0E626007A1483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7474A8F11FD0E626007A1483 /* LaunchScreen.storyboard */; };
 		7474A8F61FD0E626007A1483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A8F51FD0E626007A1483 /* main.m */; };
 		7474A9001FD0E626007A1483 /* YCNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A8FF1FD0E626007A1483 /* YCNotificationCenterTests.m */; };
 		7474A90D1FD0EB92007A1483 /* YCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A90C1FD0EB92007A1483 /* YCNotificationCenter.m */; };
+		7474A9101FD0F409007A1483 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A90F1FD0F409007A1483 /* FirstViewController.m */; };
+		7474A9131FD0F41B007A1483 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474A9121FD0F41B007A1483 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +32,6 @@
 		7474A8E31FD0E625007A1483 /* YCNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7474A8E61FD0E626007A1483 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7474A8E71FD0E626007A1483 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7474A8E91FD0E626007A1483 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7474A8EA1FD0E626007A1483 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7474A8ED1FD0E626007A1483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7474A8EF1FD0E626007A1483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7474A8F21FD0E626007A1483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +42,10 @@
 		7474A9011FD0E626007A1483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7474A90B1FD0EB92007A1483 /* YCNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCNotificationCenter.h; sourceTree = "<group>"; };
 		7474A90C1FD0EB92007A1483 /* YCNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCNotificationCenter.m; sourceTree = "<group>"; };
+		7474A90E1FD0F409007A1483 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7474A90F1FD0F409007A1483 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7474A9111FD0F41B007A1483 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7474A9121FD0F41B007A1483 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +90,10 @@
 				7474A90A1FD0EB7A007A1483 /* YCNotificationCenter */,
 				7474A8E61FD0E626007A1483 /* AppDelegate.h */,
 				7474A8E71FD0E626007A1483 /* AppDelegate.m */,
-				7474A8E91FD0E626007A1483 /* ViewController.h */,
-				7474A8EA1FD0E626007A1483 /* ViewController.m */,
+				7474A90E1FD0F409007A1483 /* FirstViewController.h */,
+				7474A90F1FD0F409007A1483 /* FirstViewController.m */,
+				7474A9111FD0F41B007A1483 /* SecondViewController.h */,
+				7474A9121FD0F41B007A1483 /* SecondViewController.m */,
 				7474A8EC1FD0E626007A1483 /* Main.storyboard */,
 				7474A8EF1FD0E626007A1483 /* Assets.xcassets */,
 				7474A8F11FD0E626007A1483 /* LaunchScreen.storyboard */,
@@ -218,10 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7474A8EB1FD0E626007A1483 /* ViewController.m in Sources */,
+				7474A9131FD0F41B007A1483 /* SecondViewController.m in Sources */,
 				7474A90D1FD0EB92007A1483 /* YCNotificationCenter.m in Sources */,
 				7474A8F61FD0E626007A1483 /* main.m in Sources */,
 				7474A8E81FD0E626007A1483 /* AppDelegate.m in Sources */,
+				7474A9101FD0F409007A1483 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
