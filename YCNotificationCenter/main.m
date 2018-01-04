@@ -10,6 +10,11 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    
+    float a[] = {1.0, 2.0};
+    float *p = a;
+    NSLog(@"%f", *++p);
+    
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
